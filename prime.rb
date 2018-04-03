@@ -1,5 +1,5 @@
 def prime?(n) 
-  return true if n ==[2,3,5,7,11...-1]
+  return true if n == 2,3 || n == 5,7,11
   puts "prime numbers"
   return false if n < 2 
   puts "non-prime numbders"
