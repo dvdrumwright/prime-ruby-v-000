@@ -1,11 +1,9 @@
-def prime?(n) 
-  return true if n == 2 || n == 3
-  puts "prime numbers"
-  return false if n < 2 
-  puts "non-prime numbders"
-  if (3...n-1).any?{|i| n % i == 0}
-      false  
-    else
-      true 
-    end
-end
+def prime?(n)
+  if n == 2 || n == 3 
+    return true 
+    puts "prime number" 
+  else 
+    return false 
+    puts "non-prime number"
+  end 
+end 
