@@ -3,7 +3,7 @@ def prime?(n)
   puts "prime numbers"
   return false if n < 2 
   puts "non-prime numbders"
-  if (2...n-1).any?{|i| n % i == 0}
+  if (3...n-1).any?{|i| n % i == 0}
       false  
     else
       true 
