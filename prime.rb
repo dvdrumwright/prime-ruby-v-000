@@ -4,7 +4,7 @@ def prime?(n)
   return false if n < 2 
   puts "non-prime numbders"
   if (2...n-1).any?{|i| n % i == 0}
-      true 
+      true  
     else
       false 
     end
