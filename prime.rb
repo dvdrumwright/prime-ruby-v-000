@@ -1,9 +1,9 @@
 def prime?(n)
   if n == 2 || n == 3 
-    return false
+    return true 
     puts "prime number" 
   else 
-    return true 
+    return false 
     puts "non-prime number"
   end 
 end 
