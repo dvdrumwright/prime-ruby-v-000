@@ -2,7 +2,7 @@ def prime?(n)
   if n == 2 || n == 3 
     return true 
     puts "prime number" 
-  else 
+    elsif n < 2 
     return false 
     puts "non-prime number"
   end 
