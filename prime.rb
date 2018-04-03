@@ -5,7 +5,7 @@ def prime?(n)
     false 
     puts "prime number"
   else 
-    truen 
+    true
     puts "non-prime number"
   end 
 end 
